@@ -1,0 +1,49 @@
+{% extends "!layout.html" %}
+  {% block footer %} {{ super() }}
+
+  <style>
+
+    /* Sidebar */
+    .wy-nav-side {
+      background: #4B0082;
+    }
+
+    .wy-nav-content {
+    max-width: 90%;
+    }
+
+   
+    .wy-table-responsive table td, .wy-table-responsive table th {
+      white-space: normal;
+    }
+
+    .wy-table-responsive {
+      overflow: visible !important;
+    }
+
+
+    h1{
+        font-size:150%;
+        font-family: "Times New Roman";
+        color: maroon ;
+    }
+
+    h2 {
+       color: green ;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    .big{
+      font-size: 25px;
+    }
+
+  </style>
+
+{% endblock %}
